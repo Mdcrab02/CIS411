@@ -1,0 +1,20 @@
+    body {
+      background-color: lightgrey;
+    }
+    
+    h1 {
+      color: blue;
+    }
+    
+    h2 {
+      color:green;
+    }
+    
+    p {
+      color: yellow;
+    }
+    
+    pre {
+      color: red;
+    }
+    

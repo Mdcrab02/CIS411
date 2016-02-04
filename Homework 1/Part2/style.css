@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(bck.jpg) no-repeat top left;
+  }
+
+h3 {
+  margin: 5px 0 5px 0;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 500;
+  background: none;
+  }
+ 
+header {
+  margin: 0;
+  padding: 0;
+  }
+ 
+footer {
+  text-align: center;
+  margin-top: 25px;
+  }
+  
+.bg2 {
+  margin: 0 0 20px 0;
+  padding:0;
+  background: url(bck2.jpg) no-repeat 150px 0;
+  }
+ 
+.logo {
+  top: 0;
+  left: 265px;
+  background: url(title2.jpg) no-repeat top left;
+  position: absolute;
+  width: 143px;
+  height: 100px;
+  }
+
+.toppart {
+  text-align: justify;
+  padding: 100px 0 0 150px;
+  width: 550px;
+  font-family: "lucida grande", verdana, tahoma, arial;
+  font-size: xx-small;
+  voice-family: "\"}\""; 
+  voice-family:inherit;
+  font-size: x-small;
+  width: 400px;
+  }
+   
+.bodystuff {
+  text-align: justify;
+  padding: 0 0 0 150px;
+  width: 550px;
+  font-family: "lucida grande", verdana, tahoma, arial;
+  font-size: xx-small;
+  voice-family: "\"}\""; 
+  voice-family:inherit;
+  font-size: x-small;
+  width: 400px;
+  }
+
+.sidepart {
+  top: 170px;
+  margin-left: 588px;
+  position: absolute;
+  text-align: right;
+  font-family: "lucida grande", verdana, tahoma, arial;
+  font-size: xx-small;
+  width: 198px;
+  padding: 0 12px;
+  voice-family: "\"}\""; 
+  voice-family:inherit;
+  font-size: x-small;
+  width: 174px;
+  }
+  
+.par1 h3, .par2 h3, .par3 h3, .par4 h3, .par5 h3 {
+  margin: 6px 0 3px 0;
+  padding: 4px 0 0 0;
+  font-size: 18px;
+  font-weight: 500;
+  background: url(piuma.gif) no-repeat top left;
+  text-indent: 35px;
+  }

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>FAQ</title>
+  <script data-require="jquery@*" data-semver="2.1.4" src="https://code.jquery.com/jquery-2.1.4.js"></script>
+  <script data-require="bootstrap@*" data-semver="3.3.6" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link data-require="bootstrap-css@3.3.6" data-semver="3.3.6" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css" />
+
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/s/dt/jq-2.1.4,dt-1.10.10/datatables.min.css"/>
+  <script type="text/javascript" src="https://cdn.datatables.net/s/dt/jq-2.1.4,dt-1.10.10/datatables.min.js"></script>
+
+  <script type="text/javascript" src="faq.js"></script>
+
+</head>
+
+<body>
+  <h1>FAQ Page</h1>
+
+  <div>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Page Navigation</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active">
+              <a href="index.html">FAQ<span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li>
+              <a href="index.html">Welcome</a>
+            </li>
+            <li>
+              <a href="registration.html">Registration</a>
+            </li>
+            <li>
+              <a href="contact.html">Contact</a>
+            </li>
+            <li>
+              <a href="tictactoe.html">Tic Tac Toe</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <div>
+    <table id="faqtable" class="display">
+      <thead>
+        <tr>
+          <th>Question</th>
+          <th>Answer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Why are tables bad?</td>
+          <td>Because they are rigid and are from an age of the internet long since passed.</td>
+        </tr>
+        <tr>
+          <td>Is this like Entity Framework? Or even like technologies in the MEAN stack?</td>
+          <td>Sir, yes sir!</td>
+        </tr>
+        <tr>
+          <td>Will Wes give extra credit this semester?</td>
+          <td>Yes! ...maybe</td>
+        </tr>
+        <tr>
+          <td>What is up with all of this fancy stuff in your code?</td>
+          <td>I'm using Bootstrap, Jquery, Modernizr, and some other stuff.</td>
+        </tr>
+        <tr>
+          <td>How hard are the tests?</td>
+          <td>You're too young to know that kind of pain...</td>
+        </tr>
+        <tr>
+          <td>What is Wes' favorite CMS?</td>
+          <td>Sharepoint!</td>
+        </tr>
+        <tr>
+          <td>Can't I just use InfoPath to build forms?</td>
+          <td>No. Don't ever ask me that again.</td>
+        </tr>
+        <tr>
+          <td>Where can I learn more about this stuff?</td>
+          <td>Check out codeacademy, udacity, codeplayer, Edx, Coursera, and codeschool.</td>
+        </tr>
+        <tr>
+          <td>Does Wes grade easy?</td>
+          <td>No, so prepare yourself!</td>
+        </tr>
+        <tr>
+          <td>I heard a rumor about a flappy bird game with Wes in it. Where is that?</td>
+          <td><a href="https://github.com/Mdcrab02/Flappy-Project-Final">Here!</a></td>
+        </tr>
+        <tr>
+          <td>Should I take CIS490?</td>
+          <td>If you're interested in developing a rickety mobile application at which Wes will laugh from atop his ivory Java tower, then sure!</td>
+        </tr>
+        <tr>
+          <td>Why are there so many of these questions?</td>
+          <td>Presumably to demonstrate the data table plugin.</td>
+        </tr>
+        <tr>
+          <td>Isn't tea just hot leaf juice?</td>
+          <td>How could you say something so horrible?</td>
+        </tr>
+        <tr>
+          <td>What do you use to do your homework?</td>
+          <td>Plunkr. You can find it <a href="http://lmgtfy.com/?q=Plunker">here</a></td>
+        </tr>
+        <tr>
+          <td>How can I organize my front end and not be a scrub?</td>
+          <td>Use an already made grid system from Bootstrap or Foundation</td>
+        </tr>
+        <tr>
+          <td>How long have you been web developing?</td>
+          <td>About 7 months, lol.</td>
+        </tr>
+        <tr>
+          <td>Are you a h4x0r?</td>
+          <td>Back in my day we sent malware to our friends as a prank. Now it's srs bsns.</td>
+        </tr>
+        <tr>
+          <td>What other CIS electives are there?</td>
+          <td>In addition to CIS490 there is CIS445 which is Knowledge Discovery in Databases. It is a data mining class and I loved it. If you're not good with math then steer clear.</td>
+        </tr>
+        <tr>
+          <td>How do I become a G post-grad?</td>
+          <td>Self-differentiate from your peers, develop extra skills needed for your area of interest, and focus on core competancies to develop your competitive advantage.</td>
+        </tr>
+        <tr>
+          <td>Is this going to be forever?</td>
+          <td>No, this is the last tuple in my code.</td>
+        </tr>
+      </tbody>
+    </table>
+
+  </div>
+
+
+</body>
+
+</html>
